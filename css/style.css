@@ -53,6 +53,18 @@ body {
     align-items: center;
 }
 
+.paired-groups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.paired-groups p {
+    font-size: 8rem;
+    margin: 0;
+}
+
 .glow-on-hover {
     width: 220px;
     height: 50px;
@@ -121,8 +133,4 @@ body {
 
 .hidden {
     display: none;
-}
-
-.group {
-    font-size: 8rem;
 }

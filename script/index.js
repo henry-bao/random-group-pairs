@@ -42,7 +42,10 @@ function shuffleArray(array) {
 // display each group in the DOM
 function displayGroups(group) {
     const groupDiv = document.createElement('div');
-    groupDiv.classList.add('group');
-    groupDiv.innerHTML = group.join(' & ');
+    const pairedGroups = document.createElement('p');
+
+    pairedGroups.innerText = group.join(' & ');
+
+    groupDiv.appendChild(pairedGroups);
     pairedGroupsDiv.appendChild(groupDiv);
 }
