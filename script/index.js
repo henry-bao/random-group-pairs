@@ -3,10 +3,6 @@ const submitBtn = document.querySelector('.submit-btn');
 const numberOfGroupsInput = document.querySelector('#number-of-groups');
 const pairedGroupsDiv = document.querySelector('.paired-groups');
 
-numberOfGroupsInput.addEventListener('keydown', (e) => {
-    e.preventDefault(); // prevent form from refreshing page
-});
-
 submitBtn.addEventListener('click', (e) => {
     e.preventDefault(); // prevent form from refreshing page
 
