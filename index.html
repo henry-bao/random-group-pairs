@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Henry Bao" />
+        <meta name="description" content="Randomly pair groups" />
+        <title>Random Pair Groups</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form class="form">
+                <label for="number-of-groups">How many groups are there?</label>
+                <input type="number" id="number-of-groups" name="number-of-groups" min="2" max="9" value="9" />
+                <button type="submit" class="submit-btn glow-on-hover">Submit</button>
+            </form>
+            <div class="paired-groups hidden"></div>
+        </div>
+        <script src="script/index.js"></script>
+    </body>
+</html>
