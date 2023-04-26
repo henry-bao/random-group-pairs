@@ -41,11 +41,7 @@ function shuffleArray(array) {
 
 // display each group in the DOM
 function displayGroups(group) {
-    const groupDiv = document.createElement('div');
     const pairedGroups = document.createElement('p');
-
     pairedGroups.innerText = group.join(' & ');
-
-    groupDiv.appendChild(pairedGroups);
-    pairedGroupsDiv.appendChild(groupDiv);
+    pairedGroupsDiv.appendChild(pairedGroups);
 }
